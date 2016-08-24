@@ -78,7 +78,7 @@ public class CryptoAssign1_12519227 {
 
     private static byte[] readInputFile() throws IOException {
     	
-        // Get file path and read in file
+        // Get the file path and read in the file
         Path filePath = Paths.get("src/CryptoAssign1_12519227.java.zip");
         byte[] inputFileBuffer = Files.readAllBytes(filePath);
         return inputFileBuffer;
