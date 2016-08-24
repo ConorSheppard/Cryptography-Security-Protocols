@@ -125,6 +125,7 @@ public class CryptoAssign1_12519227 {
         final Random r = new SecureRandom();
         byte[] randomByte = new byte[16];
         r.nextBytes(randomByte);
+        
         return randomByte;
     }
 
